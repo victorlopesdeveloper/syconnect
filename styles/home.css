@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+header{
+    background-color: black;
+    height: 8vh;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+header a {
+    text-decoration: none;
+    color: rgb(172, 150, 25);
+}
+main{
+    background-color: lightgray;
+    height: 84vh;
+    display: flex;
+    place-content: center;
+    
+}
+#apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+}
+#acesso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+footer{
+    height: 5vh;
+    background-color: black;
+    color: rgb(172, 150, 25);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    
+}
+footer a {
+    text-decoration: none;
+    color: rgb(172, 150, 25);
+    
+
+}
